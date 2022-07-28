@@ -114,12 +114,14 @@ footer{
         padding-left: 50px;
     }
     .logo{
-        padding-left: 50px;
+        padding-left: 80px;
         padding-top: 50px;
+        width: 300px;
     }
     .ill-img{
         padding-top: 40px;
-        width: 650px;
+        padding-left: 30px;
+        width: 700px;
     }
     .abt{
         margin-left: 50px;
