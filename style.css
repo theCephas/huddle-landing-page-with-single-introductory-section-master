@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    width: 240px;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+.ill-img{
+    width: 300px;
+}
+h1{
+    text-align: center;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    line-height: 32px;
+}
+p{
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 113%;
+    padding-bottom: 25px;
+}
+.btn{
+    padding-left: 50px;
+}
+button{
+    margin: 20px;
+    padding: 10px;
+    width: 60%;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.fb{
+    
+    margin-right: 20px;
+    padding: 5px;
+    
+    
+}
+.fb:hover{
+    border: 0.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+.twt{
+    
+    margin-right: 20px;
+    padding: 5px;
+    
+    
+}
+.twt:hover{
+    border: 0.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+.inst{
+    
+    margin-right: 20px;
+    padding: 5px;
+    
+    
+}
+.inst:hover{
+    border: 0.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+}
+
+@media screen and (min-width: 400px){
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 100vh;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        
+        padding-left: 50px;
+    }
+    .logo{
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+    .ill-img{
+        width: 700px;
+    }
+    .abt{
+        margin-left: 50px;
+        margin-bottom: 100px;
+        text-align: justify;
+        line-height: 30px;
+    }
+    h1{
+        text-align: left;
+        line-height: 40px;
+        font-size: 2em;
+        width: 400px;
+        margin-left: 20px;
+    }
+    p{
+        font-size: 1em;
+        text-align: left;
+        width: 500px;
+        margin-left: 20px;
+    }
+    .btn{
+        padding: 0px;
+    }
+    button{
+        width: 30%;
+    }
+    footer{
+       float: right;
+       padding-top: 0px;
+       padding-bottom: 20px;
+    }
+}
