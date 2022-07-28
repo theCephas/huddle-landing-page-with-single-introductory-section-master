@@ -111,7 +111,6 @@ footer{
     main{
         display: flex;
         flex-direction: row;
-        
         padding-left: 50px;
     }
     .logo{
@@ -119,7 +118,8 @@ footer{
         padding-top: 50px;
     }
     .ill-img{
-        width: 700px;
+        padding-top: 40px;
+        width: 650px;
     }
     .abt{
         margin-left: 50px;
@@ -148,7 +148,7 @@ footer{
     }
     footer{
        float: right;
-       padding-top: 0px;
+       padding-top: 40px;
        padding-bottom: 20px;
     }
 }
